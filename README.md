@@ -2,7 +2,7 @@
 
 
 ## Project Description:
-The task was to create a random password generator for my coding bootcamp. First, the user must click the 'Generate Password' button to prompt a question which asks how many characters the user wants their password to be. Then it continues to ask conditional questions based on the type of characters the user wants to include: lowercase, uppercase, numeric, and special characters (standard is to include all but in this task we let the user decide). After, the program will randomly choose characters based on the user criteria and generate a password.
+The task was to create a quiz where the user must start by clicking a button to trigger a timer and the first question. The user can pick from one of 4 answer choices and if they are correct the move forward to the next question with no penalty. If the user is incorrect, 10 seconds is deducted from the timer. After the user has answerered all 5 questions, they are prompted to insert their initials for a high scores list.
 
 
 
