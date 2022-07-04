@@ -12,29 +12,33 @@ The task was to create a quiz where the user must start by clicking a button to 
 
 
 
-## Mock Up:
-![Mock Up](../Module-3-Challenge-Random-Password-Generator/assets/images/IMG_0623.jpg)
+## Wireframe:
+![Wireframw](./assets/images/CF6FFF7E-8E53-4A99-AD95-86AB05ACB871_1_105_c.jpeg)
 
 <br>
 
 ## Pseudo-Code:
 * List of numbers, special characters, uppercase and lowercase
-* Write function for password input
-* Add event listener to generate button
-* Prompt = length
-* Create var to hold answer to prompt
-* Conditional if else statement to ensure user answer to prompt is within range
-* Confirm = lowercase, uppercase, numeric, special characters
-* Conditional if else to validate user answers and combine all arrays in 1 array
-* Function to randomly capture user determined # of characters from the combined array
-* Change function to a string to generate and return password
+* Landing page with start button
+* Add event listener to start quiz/timer
+* User answer question
+* Read chosen element, assess data value, compare to answer key
+* Conditional if else statement to check if user answer is correct or incorrecy
+* If incorrect deduct 10 seconds from timer
+* End of quiz
+* Add up user score
+* Display input for my user to type their initials
+* Second html and display user name and score
+* Read object from local storage
+
 
 <br>
 
 
 ## Credits:
-[Ian Darland](https://github.com/iandarland)
-Thanks Ian!!
+[Chelsea Sexton](https://github.com/chelsea314)
+[Andrew Edwards](https://github.com/Andrew87E)
+[Sara Baqla](https://github.com/missatrox44)
 
 <br>
 
