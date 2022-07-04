@@ -7,30 +7,43 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Enter your description here" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <title>Quiz</title>
 </head>
 
 <body>
   <div class="jumbotron jumbotron-fluid bg-dark text-light">
+    <section class="d-flex justify-content-end p-3" id="timerEl">60</section>
     <div class="container text-center py-5">
-      <h1>
-        Can you answer these 5 trivia questions?
-      </h1>
+      <h1>Try answering these 5 trivia questions correctly!</h1>
       <button id="button-start" type="button" class="btn btn-primary">Start Quiz</button>
     </div>
   </div>
   
-
-  <div class="container my-4">
+<main class="hidden">
+  <div class="hidden container my-4">
     <div class="row justify-content-center">
-      <div class="col-12 col-sm-10 col-md-6">
-        <div id="game" class="d-block">
+      <div class="container text-center py-5">
+        <div id="Q" class="d-none">
+          <h2 id="questionText">Insert question here</h2>
+            <div class="col-12">
+              <button id="choice1" type="button" title ="Iron" class="=custom-btn btn-3">Iron</button>
+              <button id="choice2" type="button" title ="Magnesium" class="=custom-btn btn-3">Magnesium</button>
+              <button id="choice3" type="button" title ="Calcium" class="=custom-btn btn-3">Calcium</button>
+              <button id="choice4" type="button" title ="Mercury" class="=custom-btn btn-3">Mercury</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hidden container my-4">
+    <div class="row justify-content-center">
+      <div class="col-9 col-md-8 col-sm-12">
+        <div id="Q1" class="d-none">
           <h2>Hg is the chemical symbol of which element?</h2>
             <div class="col-12">
               <button id="Iron" type="button" title ="Iron" class="=btn btn-primary">Iron</button>
@@ -44,12 +57,12 @@
   </div>
   <div class="container my-4">
     <div class="row justify-content-center">
-      <div class="col-12 col-sm-10 col-md-6">
-        <div id="game" class="d-block">
+      <div class="col-9 col-md-8 col-sm-12">
+        <div id="Q2" class="d-none">
           <h2>Which email service is owned by Microsoft?</h2>
-            <div class="col-12">
+            <!-- <div class="col-12"> -->
               <button id="Yahoo" type="button" title ="Yahoo" class="=btn btn-primary">Yahoo</button>
-              <button id="Superhuman" type="button" title ="Superhuman" class="=btn btn-primary">Suoerhuman</button>
+              <button id="Superhuman" type="button" title ="Superhuman" class="=btn btn-primary">Superhuman</button>
               <button id="Hotmail" type="button" title ="Hotmail" class="=btn btn-primary">Hotmail</button>
               <button id="Gmail" type="button" title ="Gmail" class="=btn btn-primary">Gmail</button>
             </div>
@@ -59,10 +72,10 @@
   </div>
   <div class="container my-4">
     <div class="row justify-content-center">
-      <div class="col-12 col-sm-10 col-md-6">
-        <div id="game" class="d-block">
-          <h2>Which country produces the most coffee in the world</h2>
-            <div class="col-12">
+      <div class="col-9 col-md-8 col-sm-12">
+        <div id="Q3" class="d-none">
+          <h2>Which country produces the most coffee in the world?</h2>
+            <!-- <div class="col-12"> -->
               <button id="Peru" type="button" title ="Peru" class="=btn btn-primary">Peru</button>
               <button id="Colombia" type="button" title ="Colombia" class="=btn btn-primary">Colombia</button>
               <button id="Brazil" type="button" title ="Brazil" class="=btn btn-primary">Brazil</button>
@@ -74,10 +87,10 @@
   </div>
   <div class="container my-4">
     <div class="row justify-content-center">
-      <div class="col-12 col-sm-10 col-md-6">
-        <div id="game" class="d-block">
+      <div class="col-9 col-md-8 col-sm-12">
+        <div id="Q4" class="d-none">
           <h2>What is Chandler’s last name in the sitcom Friends?</h2>
-            <div class="col-12">
+            <!-- <div class="col-12"> -->
               <button id="Bong" type="button" title ="Bong" class="=btn btn-primary">Bong</button>
               <button id="Bing" type="button" title ="Bing" class="=btn btn-primary">Bing</button>
               <button id="Bang" type="button" title ="Bang" class="=btn btn-primary">Bang</button>
@@ -89,10 +102,10 @@
   </div>
   <div class="container my-4">
     <div class="row justify-content-center">
-      <div class="col-12 col-sm-10 col-md-6">
-        <div id="game" class="d-block">
+      <div class="col-9 col-md-8 col-sm-12">
+        <div id="Q5" class="d-none">
           <h2>What is the third sign of the zodiac?</h2>
-            <div class="col-12">
+            <!-- <div class="col-12"> -->
               <button id="Gemini" type="button" title ="Gemini" class="=btn btn-primary">Gemini</button>
               <button id="Libra" type="button" title ="Libra" class="=btn btn-primary">Libra</button>
               <button id="Pisces" type="button" title ="Pisces" class="=btn btn-primary">Pisces</button>
@@ -102,8 +115,10 @@
       </div>
     </div>
   </div>
-
+</main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

@@ -1,30 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    height: 100%;
-  }
-  
-  body {
-    min-height: 100%;
-    line-height: 1;
-    font-family: sans-serif;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-  }
-  
-  input, select, option, optgroup, textarea, button,
-  pre, code {
-    font-size: 100%;
-    font-family: inherit;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-  
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}
+
+div{
+  text-align: center;
+}
+
+p{
+  text: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5`0%;
+  border: 3px solid black;
+}
+
+body {
+  background-color: black;
+   background-image: url("https://lh3.googleusercontent.com/proxy/LSbkRjYEsncTJ-75ReSOysHls5NezhTs_p4nWEZ2L6hwHwNFhEmASHKJuMCgAeeSXDWbLYfIbUJ-NldZim36j90KO97iTFAJ26z5WPsXOzE1CtWbb43eYgjnHeCZwh09l00TPkZfS7JCtR5SzYygVk5HK30-CmehfwEi");
+  color: white;
+font-family: 'Rancho', cursive;
+}
+
+
+
