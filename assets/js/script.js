@@ -16,15 +16,15 @@
 // Second html and display user name and score
 // Read object from local storage
     // Activity 24
-debugger
+// debugger
 
-// Assignment Code
-// var generateBtn = document.querySelector("#generate");
-// List of questions, answer options, correct answers, and user answers
-var questionEl = []
-var answerOptionsEl = []
-// var answersCorrectEl = [];
-var userAnswersEl = [];
+// // Assignment Code
+// // var generateBtn = document.querySelector("#generate");
+// // List of questions, answer options, correct answers, and user answers
+// var questionEl = []
+// var answerOptionsEl = []
+// // var answersCorrectEl = [];
+// var userAnswersEl = [];
 var timerEl = $("#timerEl");
 var startButtonEl = $('#button-start');
 var startingNumber = 60;

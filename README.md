@@ -2,7 +2,11 @@
 
 
 ## Project Description:
-The task was to create a quiz where the user must start by clicking a button to trigger a timer and the first question. The user can pick from one of 4 answer choices and if they are correct the move forward to the next question with no penalty. If the user is incorrect, 10 seconds is deducted from the timer. After the user has answerered all 5 questions, they are prompted to insert their initials for a high scores list.
+The task for this homework assignment was to create a quiz where the user must start by clicking a button to trigger a timer and the first question. The user can pick from one of 4 answer choices and if they are correct they move forward to the next question with no penalty. If the user is incorrect, 10 seconds is deducted from the timer and they move forward to the next question. After the user has answerered all 5 questions, or they have run out of time, they are prompted to insert their initials for a high scores list tracker.
+
+I was able to accomplish most of this task using jQuery, however, I fell short in my for loops for comparing the user answers with the correct answers and therefore my 10 second penalty deduction is faulty. Furthermore, I was not able to track the user scores and then prompt the user to input their initials for their high score.
+
+In conclusion, I plan on submitting this incomplete quiz now for a grade and come back to it later to finish it and resubmit.
 
 
 
@@ -18,7 +22,7 @@ The task was to create a quiz where the user must start by clicking a button to 
 <br>
 
 ## Pseudo-Code:
-* List of numbers, special characters, uppercase and lowercase
+* List of questions, potential answers, and correct answers
 * Landing page with start button
 * Add event listener to start quiz/timer
 * User answer question
@@ -45,15 +49,11 @@ The task was to create a quiz where the user must start by clicking a button to 
 ## Sources:
 [W3](https://www.w3schools.com/jsref/met_win_setinterval.asp)
 
-// src: 
-// https://releases.jquery.com/
-// 
-
 [jQuery](https://api.jquery.com/removeclass/)
 
 [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-CSS Styling by: [Enroll Mind](https://enrollmind.com/random-password-generator-using-html-css-and-javascript/*/)
+CSS Styling by: [Codepen](https://codepen.io/yuhomyan/pen/OJMejWJ)
 
 <br>
 
