@@ -10,7 +10,7 @@ In conclusion, I plan on submitting this incomplete quiz now for a grade and com
 
 
 
-#### You can access this project via [GitHub](https://github.com/BrianLalli/Random-Password-Generator)
+#### You can access this project via [GitHub](https://github.com/BrianLalli/Code-Quiz)
 
 <br>
 
